@@ -1,0 +1,47 @@
+ .about{
+    padding-bottom: 48px; 
+
+ }
+ .about-top{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60vh;
+}   
+  .picture{
+    height: 280px;
+    
+}
+ .about-info{
+    font-size: 30px;
+}
+.info-name{
+    color:rgb(119, 0, 81);
+    font-size: 30px;
+    text-decoration:navy;
+    font-weight: bolder;
+    
+    
+}
+.info-myname{
+    color:rgb(225, 12, 12);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+@media only screen and (max-width:720px){
+    .abou-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture{
+        height: 280px;
+    }
+    .abou-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+} 
